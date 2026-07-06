@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# Lightweight wrapper for GitHub Actions. The workflow installs Gradle with gradle/actions/setup-gradle.
+exec gradle "$@"

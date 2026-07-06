@@ -1,0 +1,24 @@
+{
+ "source": "db_archive_2603 décodé nativement (relations réelles club->championnat, offset 158) + données FC originales conservées",
+ "original_fc": {
+  "leagues": 51,
+  "clubs": 662,
+  "players": 18405
+ },
+ "added_from_db_archive": {
+  "leagues": 452,
+  "clubs": 5898,
+  "players": 129756
+ },
+ "final_counts": {
+  "leagues": 508,
+  "clubs": 6726,
+  "players": 151813
+ },
+ "note": "Appartenance club->championnat lue directement dans club.dat (index de compétition u16). Ligues Opening/Closing Stage, réserves et jeunes exclues. Grosses divisions régionales splittées en groupes de 20.",
+ "padding_conmebol_uae": 81,
+ "africa_patch": {
+  "leagues": 5,
+  "clubs": 85
+ }
+}
